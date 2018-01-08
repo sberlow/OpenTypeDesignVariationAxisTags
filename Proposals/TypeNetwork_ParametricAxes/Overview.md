@@ -61,6 +61,8 @@ These axes allow users to tailor these attributes of type independently from the
 
 The ability to change the height of the lowercase and/or uppercase, independently, increases the design range of a typeface which has many benefits for users. A graphic example is to adjust the lowercase upwards and uppercase downwards to produce a “unicase” styling; a refined typography example is to adjust the uppercase downwards to create a rarely offered “petite caps” styling; a simple programmatic example is to detect collisions from the descenders of a line above with the ascenders of a line below, and adjust the ascenders and descenders just enough to untangle them. These are just a few examples, and many problems of Latin typography can be solved with this system which can not be solved without such precise independent control.
 
+Generally, as axes registration unfolds, scripts needing Latin-independent alignments, will have them registered.
+
 **Optical Axes**
 
 This proposal includes 3 “higher level” axes: [Per-Mille Weight](ProposalSummary_pwht.md),
